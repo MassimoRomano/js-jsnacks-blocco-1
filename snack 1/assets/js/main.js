@@ -11,3 +11,12 @@ var convertSecond = Number(secondNumber);
 
 
 console.log("convertFirst,convertSecond");
+
+// determines the largest number
+if (convertFirst > convertSecond) {
+    console.log("Il numero maggiore è: " + convertFirst);
+} else if (convertSecond > convertFirst) {
+    console.log("Il numero maggiore è: " + convertSecond);
+} else {
+    console.log("I numeri sono uguali.");
+}
